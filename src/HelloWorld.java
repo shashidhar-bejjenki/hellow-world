@@ -1,5 +1,6 @@
 /* This is a simple Java program.
    FileName : "HelloWorld.java". */
+/* try auto build option */
 class HelloWorld
 {
     // Your program begins with a call to main().
