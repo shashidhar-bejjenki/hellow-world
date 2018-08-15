@@ -1,5 +1,5 @@
 ---
-- hosts:
+- hosts: webservers
   vars:
   - warName: hellow-world.war
   - warRemotePath: /home/shashi/.jenkins/workspace/Hellow-World/target
