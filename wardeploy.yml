@@ -6,4 +6,4 @@
 
   tasks:
   - name: Copy WAR to server
-    command: scp {{ warRemotePath }}/{{ warName }} shashi@192.168.0.7:/tmp/stage
+    command: scp -v {{ warRemotePath }}/{{ warName }} shashi@192.168.0.7:/tmp/stage
