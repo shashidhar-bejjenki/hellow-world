@@ -1,9 +1,0 @@
----
-- hosts: webservers
-  vars:
-  - warName: hellow-world.war
-  - warRemotePath: /home/shashi/.jenkins/workspace/Hellow-World/target
-
-  tasks:
-  - name: Copy WAR to server
-    command: scp -v {{ warRemotePath }}/{{ warName }} shashi@192.168.0.7:/tmp/stage
